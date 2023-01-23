@@ -4,7 +4,8 @@
   "description": "REST API for Managing Passwords",
   "type": "module",
   "scripts": {
-    "start": "nodemon ./src/bin/www"
+    "start": "node ./src/bin/www",
+    "dev": "nodemon ./src/bin/www"
   },
   "author": "Afzal Imam",
   "license": "ISC",
