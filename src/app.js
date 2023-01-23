@@ -22,7 +22,7 @@ const app = express();
 // Global Middleware
 
 // Implement cors
-app.use(cors({ credentials: true, origin: "http://127.0.0.1:5173" }));
+app.use(cors({ credentials: true, origin: process.env.FRONTEND_URL }));
 app.options("*", cors({ credentials: true }));
 
 // Set Security HTTP headers
