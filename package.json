@@ -1,0 +1,29 @@
+{
+  "name": "password-manager-api",
+  "version": "1.0.0",
+  "description": "REST API for Managing Passwords",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./src/bin/www"
+  },
+  "author": "Afzal Imam",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.18.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.5.2",
+    "helmet": "^6.0.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.3",
+    "morgan": "^1.10.0",
+    "validator": "^13.7.0",
+    "xss-clean": "^0.1.1"
+  }
+}
